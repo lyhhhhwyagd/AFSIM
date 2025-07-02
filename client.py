@@ -37,7 +37,7 @@ class MCPClient:
         self.exit_stack = AsyncExitStack()
         self.client = AsyncOpenAI(
             base_url="https://api.deepseek.com",
-            api_key="sk-fcd12c6f10f04461ba4e629932076b3f",
+            api_key="****************************",
         )
         self.model = "deepseek-chat"
         self.messages = []
